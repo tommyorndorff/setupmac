@@ -3,7 +3,7 @@
 
 - name: setting up my dotfiles
   git:
-    repo: https://github.com/daemonza/dotfiles.git
+    repo: https://github.com/torndorff/dotfiles.git
     dest: /tmp/dotfiles/
 
 - name: zsh dot file
