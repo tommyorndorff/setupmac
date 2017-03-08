@@ -37,13 +37,9 @@ cask_applications:
   - alfred
   - virtualbox
 
-downloads:
-   zwift:
-     name: Zwift
-     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
-     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
-   suuntolink:
-     name: Suunto Movescount link
-     url: http://suuntolink.static.movescount.com/Suuntolink_installer.dmg
-     dest: "{{general.local_home}}/Downloads/Suuntolink_installer.dmg"
+# downloads:
+#    zwift:
+#      name: Zwift
+#      url: http://cdn.zwift.com/app/ZwiftOSX.dmg
+#      dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
 
