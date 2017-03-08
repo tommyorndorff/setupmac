@@ -16,11 +16,6 @@ applications:
   - zsh
   - go
   - vim
-  - hugo
-  - saltstack
-#  - neovim
-  - ag 
-  - ctags
 
 # homebrew cask applications
 cask_applications:
@@ -32,8 +27,6 @@ cask_applications:
   - minikube
   - vagrant
   - emacs
-  - garmin-express
-  - 1password
   - alfred
   - virtualbox
 
