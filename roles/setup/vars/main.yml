@@ -30,7 +30,7 @@ cask_applications:
   - alfred
   - virtualbox
 
- downloads:
+ downloads: [ ]
 #    zwift:
 #      name: Zwift
 #      url: http://cdn.zwift.com/app/ZwiftOSX.dmg
