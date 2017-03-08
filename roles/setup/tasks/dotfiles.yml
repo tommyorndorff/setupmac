@@ -16,11 +16,16 @@
     src: /tmp/dotfiles/dot.spacemacs
     dest: "{{general.local_home}}/.spacemacs"
 
+- name: ensure that .config exists
+  file:
+    path: "{{general.local_home}}/.config"
+    state: directory
+
 - name: ensure that neovim configuration directory exists
   file:
     path: "{{general.local_home}}/.config/nvim"
     state: directory
-    
+
 - name: verify $HOME/.config/nvim dir is there    
   stat:
     path: "{{general.local_home}}/.config/nvim"
