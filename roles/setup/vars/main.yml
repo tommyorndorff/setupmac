@@ -23,7 +23,7 @@ cask_applications:
   - slack
   - iterm2
   - caffeine
-  - docker
+#  - docker
   - minikube
   - vagrant
   - emacs
