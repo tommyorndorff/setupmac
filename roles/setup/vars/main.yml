@@ -19,7 +19,7 @@ applications:
 
 # homebrew cask applications
 cask_applications:
-  - google-chrome
+#  - google-chrome
   - slack
   - iterm2
   - caffeine
